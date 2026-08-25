@@ -1,0 +1,45 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "bfcl",
+    "slug": "bfcl",
+    "title": "BFCL: Berkeley Function-Calling Leaderboard",
+    "group": "Assistants",
+    "tags": [],
+    "source": "core"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "src/inspect_evals/bfcl",
+    "inspect_ai": "0.3.260",
+    "eval_version": "6-B",
+    "dependency": "bfcl"
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "medium",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "bfcl",
+      "samples": 4981
+    }
+  ],
+  "total_samples": 4981,
+  "external_assets": [
+    {
+      "type": "git_clone",
+      "source": "https://github.com/ShishirPatil/gorilla.git",
+      "state": "pinned"
+    }
+  ],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
