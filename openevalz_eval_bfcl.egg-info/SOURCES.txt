@@ -1,0 +1,12 @@
+LICENSE
+NOTICE.md
+README.md
+pyproject.toml
+openevalz_eval_bfcl.egg-info/PKG-INFO
+openevalz_eval_bfcl.egg-info/SOURCES.txt
+openevalz_eval_bfcl.egg-info/dependency_links.txt
+openevalz_eval_bfcl.egg-info/entry_points.txt
+openevalz_eval_bfcl.egg-info/requires.txt
+openevalz_eval_bfcl.egg-info/top_level.txt
+tr/__init__.py
+tr/provider.py
